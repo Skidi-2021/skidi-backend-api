@@ -81,7 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['DB_NAME'] %>
-  username: <%= ENV['DB_USERNAME'] %>
-  password: <%= ENV['DB_PASSWORD'] %>
-  host: <%= ENV['DB_IP'] %>
+  database: skidi_backend_api_production
+  username: skidi_backend_api
+  password: <%= ENV['SKIDI_BACKEND_API_DATABASE_PASSWORD'] %>

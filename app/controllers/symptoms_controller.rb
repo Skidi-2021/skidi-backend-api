@@ -36,7 +36,7 @@ class SymptomsController < ApplicationController
             symptom: {
                 name: symptom.name,
                 author: "Ghaniy",
-                url: symptom.image.url
+                url: rails_blob_url(symptom.image)
             }
         }
     end

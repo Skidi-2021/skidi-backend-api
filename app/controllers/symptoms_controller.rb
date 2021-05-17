@@ -1,5 +1,4 @@
 class SymptomsController < ApplicationController
-    before_action :ibase_url
 
     def show
         symptom = Symptom.find(params[:id])
@@ -41,9 +40,4 @@ class SymptomsController < ApplicationController
             }
         }
     end
-
-    def ibase_url
-        request.base_url("http://localhost:8000")
-    end
-    
 end

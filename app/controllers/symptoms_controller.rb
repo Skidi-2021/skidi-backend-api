@@ -28,7 +28,7 @@ class SymptomsController < ApplicationController
     private
 
     def create_params
-        params.permit(:name, :image)
+        params.require(:symptom).permit(:name, :image)
     end
     
     def show_symptom(symptom)

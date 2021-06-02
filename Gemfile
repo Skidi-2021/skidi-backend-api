@@ -46,4 +46,12 @@ gem 'capistrano-passenger', '~> 0.2.0'
 gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 
 # GCS Gem
-gem 'google-cloud-storage'
+gem "google-cloud-storage", "~> 1.8", require: false
+
+# Authorization
+gem "devise"
+gem "jwt"
+
+# API Depedencies
+gem "jsonapi-serializer"
+gem "rest-client"

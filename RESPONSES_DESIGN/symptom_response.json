@@ -1,0 +1,47 @@
+{
+    "data": {
+        "type": "disease",
+        "attributes": {
+            "symptom_name": "Melanoma",
+            "sources": [
+                {
+                    "title": "Kanker Kulit Melanoma - Gejala, penyebab dan mengobati - Alodokter",
+                    "snippets": "4 Des 2017 ... Kanker kulit melanoma adalah jenis kanker yang berkembang pada melanosit, \nsel pigmen kulit yang berfungsi sebagai penghasil melanin.",
+                    "url": "https://www.alodokter.com/kanker-kulit-melanoma"
+                },
+                {
+                    "title": "Kanker Kulit Melanoma - Gejala, penyebab dan mengobati - Alodokter",
+                    "snippets": "4 Des 2017 ... Kanker kulit melanoma adalah jenis kanker yang berkembang pada melanosit, \nsel pigmen kulit yang berfungsi sebagai penghasil melanin.",
+                    "url": "https://www.alodokter.com/kanker-kulit-melanoma"
+                }
+
+            ]
+        }
+    },
+    "included": [
+        {
+            "type": "hospitals",
+            "attributes": [
+                {
+                    "coordinates": {
+                        "lat": 123.456,
+                        "lng": 789.101
+                    },
+                    "name": "RS Islam Jakarta - Klinik Umum",
+                    "place_id": "ChIJE1BhF5mMaS4RE0gA4htR3k4",
+                    "maps_url": "https://www.google.com/maps/search/?api=1&query=123.456,789.101&query_place_id=ChIJE1BhF5mMaS4RE0gA4htR3k4"
+                },
+                {
+                    "coordinates": {
+                        "lat": 123.456,
+                        "lng": 789.101
+                    },
+                    "name": "RS Islam Jakarta - Klinik Umum",
+                    "place_id": "ChIJE1BhF5mMaS4RE0gA4htR3k4",
+                    "maps_url": "https://www.google.com/maps/search/?api=1&query=123.456,789.101&query_place_id=ChIJE1BhF5mMaS4RE0gA4htR3k4"
+                }                    
+            ]
+
+        }
+    ]
+}

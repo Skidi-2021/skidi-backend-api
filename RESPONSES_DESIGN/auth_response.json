@@ -1,0 +1,11 @@
+{
+    "data": {
+        "type": "register",
+        "attributes": {
+            "id": 1,
+            "email": "ghaniy@kodein.com",
+            "token": "ncdsbcdbcbdwkcbdwcndwiowe"
+        }
+    },
+    "status": 200
+}

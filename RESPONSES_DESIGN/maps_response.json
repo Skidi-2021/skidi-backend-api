@@ -1,0 +1,155 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -6.220123,
+                    "lng": 106.93957
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -6.218606970107278,
+                        "lng": 106.9409062798927
+                    },
+                    "southwest": {
+                        "lat": -6.221306629892722,
+                        "lng": 106.9382066201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+            "name": "RS Islam Jakarta - Klinik Umum",
+            "photos": [
+                {
+                    "height": 4096,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112688443903439756692\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwIgZwLOPuHvKGgIThXdTzThYxeudzOmQWkk9dPuRHGLjAZEywhXRIP1VC_xGQeIBPmdNcpj1ka2vVHb6B_m8zDDQpOpvYoukVMT7zvq4Ew8NV4kC93A_5PqA4LdSIdjEBVTVogzXo_mm1MoRCmaHVy6gjNRisuY3G2bmh6zwsnBIEqk",
+                    "width": 2304
+                }
+            ],
+            "place_id": "ChIJE1BhF5mMaS4RE0gA4htR3k4",
+            "plus_code": {
+                "compound_code": "QWHQ+XR Pd. Kopi, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
+                "global_code": "6P58QWHQ+XR"
+            },
+            "rating": 1.7,
+            "reference": "ChIJE1BhF5mMaS4RE0gA4htR3k4",
+            "scope": "GOOGLE",
+            "types": [
+                "hospital",
+                "health",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11,
+            "vicinity": "Jl. Pd. Kopi Raya, RT.2/RW.1, Pd. Kopi, Kota Jakarta Timur"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -6.2000873,
+                    "lng": 106.935019
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -6.198733920107277,
+                        "lng": 106.9364147798927
+                    },
+                    "southwest": {
+                        "lat": -6.201433579892721,
+                        "lng": 106.9337151201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+            "name": "Apotek Klapa 2",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 5312,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117902502052445630031\">Saddam Badjree</a>"
+                    ],
+                    "photo_reference": "ATtYBwIHhVjxhDMt43XsE6QYPW1vITOdVeVbKBuuB7om1WOqn-Ls0kzAn2EzOu1zGvTNBrDebkLqoyLB5DfN8yakAqmV-f6gxwa5ikbt5Trkn8awYvtF7Xiyx1sOkkOv4aAM1YexdwNYUbyZ0pOTHyRt2Ja3BOl8rNqFqb2NkT-RInEUMTVe",
+                    "width": 2988
+                }
+            ],
+            "place_id": "ChIJzSivjUGLaS4Rn_Ti5QrMFbo",
+            "plus_code": {
+                "compound_code": "QWXP+X2 Penggilingan, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
+                "global_code": "6P58QWXP+X2"
+            },
+            "rating": 4.4,
+            "reference": "ChIJzSivjUGLaS4Rn_Ti5QrMFbo",
+            "scope": "GOOGLE",
+            "types": [
+                "hospital",
+                "health",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 16,
+            "vicinity": "Jl. Raya Penggilingan No.3, RT.11/RW.7, Penggilingan, Kota Jakarta Timur"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": -6.2201973,
+                    "lng": 106.9392296
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": -6.218869420107279,
+                        "lng": 106.9405152798927
+                    },
+                    "southwest": {
+                        "lat": -6.221569079892722,
+                        "lng": 106.9378156201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/hospital-71.png",
+            "name": "Apotek Rumah Sakit Islam Jakarta Pondok Kopi",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113295069109166616696\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwKJyJvUmad00gR1Ouosnz8XO2CpkMMzq6tRrIRaAXxAyMmh2iEij-QN6dTdiQdME7lSJqvnMEKR48YgJJ_hyD2VWaP2ZK1xx36uQmoG9ZamBejRQARLP5twcwmu5R9CRrKzqJLYmV_EaoZs-iu6y4kBZHqrb8_CUowSbdaoOqdLo1fC",
+                    "width": 3120
+                }
+            ],
+            "place_id": "ChIJ7xtoFJmMaS4RM9DKXeomEyA",
+            "plus_code": {
+                "compound_code": "QWHQ+WM Pd. Kopi, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta",
+                "global_code": "6P58QWHQ+WM"
+            },
+            "rating": 3,
+            "reference": "ChIJ7xtoFJmMaS4RM9DKXeomEyA",
+            "scope": "GOOGLE",
+            "types": [
+                "pharmacy",
+                "hospital",
+                "health",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 51,
+            "vicinity": "Jl. Raya Pondok Kopi, RT.2/RW.1, Pondok Kopi, Duren Sawit, RT.2/RW.1, Pd. Kopi, Kota Jakarta Timur"
+        }
+    ],
+    "status": "OK"
+}

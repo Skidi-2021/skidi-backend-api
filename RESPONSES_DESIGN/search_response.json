@@ -1,0 +1,174 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - melanoma adalah",
+                "totalResults": "1750",
+                "searchTerms": "melanoma adalah",
+                "count": 2,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "424de0ec651c93bc8",
+                "gl": "id"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - melanoma adalah",
+                "totalResults": "1750",
+                "searchTerms": "melanoma adalah",
+                "count": 2,
+                "startIndex": 3,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "424de0ec651c93bc8",
+                "gl": "id"
+            }
+        ]
+    },
+    "context": {
+        "title": "Google"
+    },
+    "searchInformation": {
+        "searchTime": 0.542845,
+        "formattedSearchTime": "0.54",
+        "totalResults": "1750",
+        "formattedTotalResults": "1,750"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Kanker Kulit Melanoma - Gejala, penyebab dan mengobati - Alodokter",
+            "htmlTitle": "Kanker Kulit <b>Melanoma</b> - Gejala, penyebab dan mengobati - Alodokter",
+            "link": "https://www.alodokter.com/kanker-kulit-melanoma",
+            "displayLink": "www.alodokter.com",
+            "snippet": "4 Des 2017 ... Kanker kulit melanoma adalah jenis kanker yang berkembang pada melanosit, \nsel pigmen kulit yang berfungsi sebagai penghasil melanin.",
+            "htmlSnippet": "4 Des 2017 <b>...</b> Kanker kulit <b>melanoma adalah</b> jenis kanker yang berkembang pada melanosit, <br>\nsel pigmen kulit yang berfungsi sebagai penghasil melanin.",
+            "cacheId": "wG1Pof210d8J",
+            "formattedUrl": "https://www.alodokter.com/kanker-kulit-melanoma",
+            "htmlFormattedUrl": "https://www.alodokter.com/kanker-kulit-<b>melanoma</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSK2Si_UclvS8qmGVDVcWZ6q0u6eVIt0UFkimkExuaWD6RCKfY8fj4LbFxR",
+                        "width": "275",
+                        "height": "183"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "remarketing_tags": "kanker-kulit, melanoma, alo-disease-5",
+                        "og:image": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1617874744/attached_image/kanker-kulit-melanoma.jpg",
+                        "referer": "http://www.google.com",
+                        "theme-color": "#3973cf",
+                        "og:image:width": "650",
+                        "article:published_time": "2014-06-27T16:39:59+07:00",
+                        "twitter:card": "summary",
+                        "og:site_name": "Alodokter",
+                        "apple-mobile-web-app-title": "Alodokter",
+                        "twitter:image:height": "433",
+                        "og:image:type": "image/jpeg",
+                        "postid": "1307",
+                        "og:description": "Kanker kulit melanoma adalah jenis kanker yang berkembang pada melanosit, sel pigmen kulit yang berfungsi sebagai penghasil melanin. Melanin inilah yang berfungsi menyerap sinar ultraviolet dan",
+                        "article:modified_time": "2021-04-08T16:38:59+07:00",
+                        "twitter:image:width": "650",
+                        "criteo_account": "62444",
+                        "alexaverifyid": "n_Kykr_OZlOYYRDisl_bHGZYccc",
+                        "application-name": "Alodokter",
+                        "msapplication-tilecolor": "#ffffff",
+                        "og:type": "page",
+                        "article:section": "Kesehatan",
+                        "twitter:title": "Kanker Kulit Melanoma",
+                        "article:publiher": "https://www.alodokter.com/",
+                        "msvalidate.01": "C233DAA628883F2DD70CD54C789D0494",
+                        "og:title": "Kanker Kulit Melanoma",
+                        "og:image:height": "433",
+                        "og:updated_time": "2021-04-08T16:38:59+07:00",
+                        "article:author": "https://www.alodokter.com/author/y2afrika/",
+                        "facebook-domain-verification": "v9k4b24zt24dxdo39v3ab3gnt5ns5b",
+                        "article:tag": "kesehatan",
+                        "twitter:image:src": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1617874744/attached_image/kanker-kulit-melanoma.jpg",
+                        "fb:app_id": "331705120345014",
+                        "apple-mobile-web-app-status-bar-style": "#3973cf",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Kanker kulit melanoma adalah jenis kanker yang berkembang pada melanosit, sel pigmen kulit yang berfungsi sebagai penghasil melanin. Melanin inilah yang berfungsi menyerap sinar ultraviolet dan",
+                        "posttype": "page",
+                        "mobile-web-app-capable": "yes",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.alodokter.com/kanker-kulit-melanoma"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1617874744/attached_image/kanker-kulit-melanoma.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Melanoma - Gejala, Penyebab, Faktor Risiko, Diagnosis ...",
+            "htmlTitle": "<b>Melanoma</b> - Gejala, Penyebab, Faktor Risiko, Diagnosis ...",
+            "link": "https://www.halodoc.com/kesehatan/melanoma",
+            "displayLink": "www.halodoc.com",
+            "snippet": "Melanoma adalah salah satu jenis kanker kulit yang berasal dari sel melanosit, \nsel penghasil melanin yang biasanya terdapat pada kulit.",
+            "htmlSnippet": "<b>Melanoma adalah</b> salah satu jenis kanker kulit yang berasal dari sel melanosit, <br>\nsel penghasil melanin yang biasanya terdapat pada kulit.",
+            "cacheId": "z4h-INO1AZEJ",
+            "formattedUrl": "https://www.halodoc.com/kesehatan/melanoma",
+            "htmlFormattedUrl": "https://www.halodoc.com/kesehatan/<b>melanoma</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtzptFHZr5kIwMTR7c8M4xASXGeT7ZP8YDc3gdGcYGpf9MelrC0nlb3A",
+                        "width": "459",
+                        "height": "84"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.halodoc.com/assets/header-footer/halodoc-logo.png",
+                        "theme-color": "#1976d2",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "halodoc",
+                        "apple-mobile-web-app-title": "Halodoc - Beli Obat, Tanya Dokter, Cek Lab Terpercaya",
+                        "title": "Melanoma - Gejala, Penyebab, Faktor Risiko, Diagnosis, Pengobatan dan Efek Samping, Komplikasi, Pencegahan, Kapan Harus ke Dokter? | Halodoc.com",
+                        "og:description": "Melanoma adalah salah satu jenis kanker kulit yang berasal dari sel melanosit, sel penghasil melanin yang biasanya terdapat pada kulit.",
+                        "twitter:creator": "@halodocid",
+                        "article:publisher": "halodoc",
+                        "twitter:site": "@halodocid",
+                        "datemodified": "2020-07-07T07:00:00.000Z",
+                        "article:modified_time": "2020-07-07T00:00:00.000Z",
+                        "datepublished": "2020-07-07T07:00:00.000Z",
+                        "application-name": "halodoc",
+                        "image": "https://www.halodoc.com/assets/header-footer/halodoc-logo.png",
+                        "article:section": "Kesehatan",
+                        "og:type": "article",
+                        "twitter:title": "Melanoma",
+                        "author": "Halodoc",
+                        "og:title": "Melanoma - Gejala, Penyebab, Faktor Risiko, Diagnosis, Pengobatan dan Efek Samping, Komplikasi, Pencegahan, Kapan Harus ke Dokter? | Halodoc.com",
+                        "url": "https://www.halodoc.com/kesehatan/melanoma",
+                        "apple-mobile-web-app-status-bar-style": "black",
+                        "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no",
+                        "apple-mobile-web-app-capable": "true",
+                        "twitter:description": "Melanoma adalah salah satu jenis kanker kulit yang berasal dari sel melanosit, sel penghasil melanin yang biasanya terdapat pada kulit.",
+                        "publisher": "halodoc",
+                        "og:url": "https://www.halodoc.com/kesehatan/melanoma"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.halodoc.com/assets/header-footer/halodoc-logo.png"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 class Symptom < ApplicationRecord
     has_one_attached :image
-    validates :name, presence: true
+    belongs_to :user
+    validates :symptom_name, presence: true
 end

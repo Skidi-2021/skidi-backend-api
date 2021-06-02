@@ -18,12 +18,12 @@ local:
 # Development Storage
 google_dev:
   service: GCS
-  project: <%= Rails.application.credentials.google_dev.project %>
-  credentials: <%= Rails.root.join("config/secrets/GOOGLE_PROJECTS_CREDENTIAL.json") %>
-  bucket: <%= Rails.application.credentials.google_dev.bucket %>
+  project: <%= Rails.application.credentials.google_dev[:project] %>
+  credentials: <%= Rails.root.join("config/secrets/GCS_ACCESS.json") %>
+  bucket: <%= Rails.application.credentials.google_dev[:bucket] %>
 
 # Production Storage
-google_dev:
+google:
   service: GCS
   project: <%= ENV['GCS_PROJECTNAME'] %>
   credentials: <%= ENV['GOOGLE_PROJECTS_CREDENTIAL'].as_json %>

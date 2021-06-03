@@ -143,14 +143,14 @@ curl -X PUT localhost:3000/api/credential \
 
 ## Penggunaan API
 
-### POST: User Symptoms
+### (POST) User Symptoms
 
 Untuk mendapatkan overview dari data Symptoms yang dikirim, terlebih dahulu harus memfetch ID User dari Header Authorization.
 
 Gunakan Endpoint berikut dan Masukkan data menggunakan FormData
 
 ```
-api/users/1/symptoms
+api/users/[id_user]/symptoms
 ```
 Data yang dikirim berupa Nama Penyakit (output dari Kecerdasan Buatan), lalu data lokasi pengguna (Latitude dan Longitude)
 
@@ -161,7 +161,7 @@ curl -X POST localhost:3000/api/users/1/symptoms \
 -F "symptom_name=Dermatofibroma" \
 -F "latitude=-6.2122778" \
 -F "longitude=106.9314651" \
--H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OCwiZW1haWwiOiJtZWdhQHNheWFuZy5naGFuaXkiLCJqdGkiOiI0ODk5YjRiN2RmODFlODc2MWViZjMzMDI2MGQ1YzFhMSIsImlhdCI6MTYyMjYwODc0MywiZXhwIjoxNjU0MTQ0NzQzfQ.EIWaAV0Fan7g-ng0GffL1D8X1rAEpvq3IZ5TPxMHRcM"
+-H "Authorization: Bearer YOUR_AUTHORIZATION_TOKEN"
 ```
 Response dari Endpoint tersebut:
 
@@ -177,8 +177,11 @@ Response dari Endpoint tersebut:
                     "snippet": "16 Jul 2018 ... Dermatofibroma adalah tumor jinak yang berbentuk bulat, kecil, konsistensinya \nkeras, dan berwarna merah muda-merah tua-hingga kecokelatan ...",
                     "url": "https://www.alodokter.com/komunitas/topic/dermathofibroma"
                 },
+                ...
                 {
-                    ...
+                    "title": "Dermatofibrosarkoma Protuberans - Gejala, penyebab dan ...",
+                    "snippet": "21 Jan 2019 ... Dermatofibrosarkoma protuberans (DFSP) adalah jenis kanker kulit yang jarang \nterjadi dan bermula dari sel jaringan penghubung di lapisan ...",
+                    "url": "https://www.alodokter.com/dermatofibrosarkoma-protuberans"
                 },
                 {
                     "title": "Penyebab Benjolan Warna Hitam Di Jari Tengah - Tanya Alodokter",
@@ -201,9 +204,7 @@ Response dari Endpoint tersebut:
                     "place_id": "ChIJlUGTkLUI7S0RV0z9GFivCE8",
                     "maps_url": "https://www.google.com/maps/search/?api=1&query=-6.232076999999999,106.9103481&query_place_id=ChIJlUGTkLUI7S0RV0z9GFivCE8"
                 },
-                {
-                    ...
-                },
+                ...
                 {
                     "coordinates": {
                         "lat": -6.2319263,
@@ -218,18 +219,52 @@ Response dari Endpoint tersebut:
     ]
 }
 ```
+### (GET) ALL User Symptoms [INDEX]
 
-### GET: User Specific Symptom
+Endpoint ini digunakan untuk mendapatkan seluruh penyakit penderita yang berhasil direkam oleh System.
+
+Gunakan Endpoint berikut:
+
+```
+api/users/[id_user]/symptoms/
+```
+
+```json
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "symptom",
+            "attributes": {
+                "symptom_name": "Melanoma",
+                "author": null,
+                "created_at": "2021-06-02T08:28:54.756Z",
+                "url": null
+            },
+            "relationships": {
+                "user": {
+                    "data": {
+                        "id": "1",
+                        "type": "user"
+                    }
+                }
+            }
+        }
+    ]
+}
+```
+
+### (GET) User Specific Symptom [SHOW]
 
 Untuk mendapatkan salah satu gejala spesifik yang diderita Pengguna, gunakan endpoint berikut:
 
 ```
-api/users/1/symptoms/234
+api/users/[id_user]/symptoms/[id_user_symptom]
 ```
 
 ```bash
-curl -X GET localhost:3000/api/users/1/symptoms/234 \
--H "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6OCwiZW1haWwiOiJtZWdhQHNheWFuZy5naGFuaXkiLCJqdGkiOiI0ODk5YjRiN2RmODFlODc2MWViZjMzMDI2MGQ1YzFhMSIsImlhdCI6MTYyMjYwODc0MywiZXhwIjoxNjU0MTQ0NzQzfQ.EIWaAV0Fan7g-ng0GffL1D8X1rAEpvq3IZ5TPxMHRcM"
+curl -X GET localhost:3000/api/users/1/symptoms/1 \
+-H "Authorization: Bearer YOUR_AUTHORIZATION_TOKEN"
 ```
 
 Response dari Endpoint tersebut:

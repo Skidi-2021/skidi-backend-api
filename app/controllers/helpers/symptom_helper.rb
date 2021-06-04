@@ -8,8 +8,8 @@ module Helpers::SymptomHelper
     end
 
     def symptom_response(lat, lng, sym_name)
-        maps_api = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=#{lat},#{lng}&radius=5000&type=hospital&keyword=poli%20kulit&language=id&key=#{Rails.application.credentials.maps_and_engine_api}"
-        search_api = "https://www.googleapis.com/customsearch/v1?cx=424de0ec651c93bc8&q=#{sym_name}&gl=id&num=5&key=#{Rails.application.credentials.maps_and_engine_api}"
+        maps_api = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=#{lat},#{lng}&radius=5000&type=hospital&keyword=poli%20kulit&language=id&key=#{Rails.application.credentials.maps_api}"
+        search_api = "https://www.googleapis.com/customsearch/v1?cx=4e2cd14c70ac4f2cf&q=#{sym_name}&gl=id&num=5&key=#{Rails.application.credentials.cse_api}"
 
         maps_res = RestClient.get(maps_api)
         search_res = RestClient.get(search_api)

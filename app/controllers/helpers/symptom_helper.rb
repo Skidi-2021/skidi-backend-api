@@ -3,8 +3,7 @@ module Helpers::SymptomHelper
 
     class_methods do
         def symptom_url(sym)
-            # sym.image.blob.service_url
-            rails_service_blob_url(sym.image)
+            sym.image.url
         end    
     end
 

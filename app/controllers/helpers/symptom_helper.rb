@@ -3,7 +3,7 @@ module Helpers::SymptomHelper
 
     class_methods do
         def symptom_url(sym)
-            sym.image.url
+            sym.image.blob.service_url
         end    
     end
 

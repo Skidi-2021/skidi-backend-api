@@ -1,6 +1,8 @@
 class SymptomSerializer
   include JSONAPI::Serializer
   include Helpers::SymptomHelper
+  include ActiveStorage::SetCurrent
+
   
   belongs_to :user
 

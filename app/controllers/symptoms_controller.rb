@@ -2,7 +2,7 @@ class SymptomsController < ApplicationController
     before_action :authenticate_user!
     
     include Helpers::SymptomHelper
-    include ActiveStorage::SetCurrent
+    # include ActiveStorage::SetCurrent
 
 
     def index

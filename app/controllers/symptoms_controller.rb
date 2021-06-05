@@ -2,6 +2,8 @@ class SymptomsController < ApplicationController
     before_action :authenticate_user!
     
     include Helpers::SymptomHelper
+    include ActiveStorage::SetCurrent
+
 
     def index
         symptoms = Symptom.where(user_id: params[:user_id])

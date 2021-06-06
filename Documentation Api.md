@@ -319,9 +319,9 @@ Karena komplektisitas yang sudah dibuat antara API Symptom dan User, serta salin
 ```ruby
 require 'jwt'
 
-secret_key = "fa0e3da08842793a5850c237dd64f4afbd73c4e58bb6962599d0e12aa9d004914a09d60c3a5eabce342633b73bc12fc433863e6cd23c7ac017a3df32a189684d"
+secret_key = "51b681f9ca1662d32191ad8bf08c60e5360874db59daf55be0fb435cce6f12b844d466a6da217aef95078aafbed48d8b45bf32bfff8ea157a52bd8a8af2b4347"
 
-token = "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJnaGFuaXlAa29kZWluLmlkIiwianRpIjoiY2NjYjRlODdhY2VjODA0MzU3ODcyMWI1YmJhNjFkZDYiLCJpYXQiOjE2MjI2MTE2MjQsImV4cCI6MTY1NDE0NzYyNH0.B8-UUDZV5hZowyLk_PVGT6wtFUlNWpnuZKOY-HKG9F8"
+token = "eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJnaGFuaXlAa29kZWluLmlkIiwianRpIjoiM2ZiODE1MDVmY2E1N2EyNGI4NjMyYjZiNGZhMmM5Y2QiLCJpYXQiOjE2MjI5NjQ4MDQsImV4cCI6MTY1NDUwMDgwNH0.jSNGusvlRwo3AL8SLWpKwQCaPz5vUo70eElVHe0zSLw"
 
 decode = JWT.decode(token, secret_key)
 # [{"id"=>1, "email"=>"ghaniy@kodein.id", "jti"=>"cccb4e87acec8043578721b5bba61dd6", "iat"=>1622611624, "exp"=>1654147624}, {"alg"=>"HS256"}]
@@ -334,10 +334,10 @@ post_url = "localhost:3000/api/users/#{decode[0]["id"]}/symptoms"
 AUTHENTICATION
 
 ```yml
-secret_key: fa0e3da08842793a5850c237dd64f4afbd73c4e58bb6962599d0e12aa9d004914a09d60c3a5eabce342633b73bc12fc433863e6cd23c7ac017a3df32a189684d
+secret_key: 51b681f9ca1662d32191ad8bf08c60e5360874db59daf55be0fb435cce6f12b844d466a6da217aef95078aafbed48d8b45bf32bfff8ea157a52bd8a8af2b4347
 
 # TOKEN BERLAKU UNTUK SETAHUN
-jwt_token: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJnaGFuaXlAa29kZWluLmlkIiwianRpIjoiOWQ1YWY4MWIwM2E4MTY0MWIxODdlMDUyZGRjZjQ5M2MiLCJpYXQiOjE2MjI2MjE3NzYsImV4cCI6MTY1NDE1Nzc3Nn0.P--IuNMisIlF6cU1TQ6pUL5ylxBOuJVoPCXrlV_i3hE
+jwt_token: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJnaGFuaXlAa29kZWluLmlkIiwianRpIjoiM2ZiODE1MDVmY2E1N2EyNGI4NjMyYjZiNGZhMmM5Y2QiLCJpYXQiOjE2MjI5NjQ4MDQsImV4cCI6MTY1NDUwMDgwNH0.jSNGusvlRwo3AL8SLWpKwQCaPz5vUo70eElVHe0zSLw
 email: ghaniy@kodein.id
 id: 1
 ```

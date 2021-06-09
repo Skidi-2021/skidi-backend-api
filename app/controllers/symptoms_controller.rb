@@ -2,7 +2,7 @@ class SymptomsController < ApplicationController
     before_action :authenticate_user!
     
     include Helpers::SymptomHelper
-    include ActiveStorage::SetCurrent
+    include ActiveStorage::SetCurrent # Untuk menampilkan URL dari Service terkini
 
 
     def index
@@ -57,9 +57,6 @@ class SymptomsController < ApplicationController
 
     private
 
-    def symptom_index(symptoms)
-    end
-
     def symptom_create
         {
             image: params[:image],
@@ -71,14 +68,4 @@ class SymptomsController < ApplicationController
         }
     end
     
-    def show_symptom(symptom)
-        {
-            symptom: {
-                id: symptom.id,
-                symptom_name: symptom.symptom_name,
-                author: symptom.author,
-                url: rails_service_blob_path(filename: symptom.image.filename, signed_id: symptom.image.signed_id)
-            }
-        }
-    end
 end

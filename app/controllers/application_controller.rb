@@ -11,7 +11,7 @@ class ApplicationController < ActionController::API
     # tampilan custom dari error-error umum
     include ErrorResponseActions
     rescue_from ActiveRecord::RecordNotFound, :with => :resource_not_found
-
+    
     # ========================================================= #
         # Panduan padanan response JSON terhadapat HTTP Status
         # 200 OK: JSON Response { message: }

@@ -28,4 +28,4 @@
 /config/secrets/*
 
 # DEPLOYMENT API
-Documentation Api.md
+/Documentation Api.md
